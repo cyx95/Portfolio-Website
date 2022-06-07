@@ -3,6 +3,8 @@ import React from "react";
 export default function AboutMe() {
   return (
     <div className="aboutMe">
+      <p>Hello! My name is Chen Ying Xin but you can call me</p>
+      <h2>Ying</h2>
       <p>
         I am a software engineer and a recent graduate of The GraceHopper
         Program at Fullstack Academy. Prior to becoming a software engineer, I
@@ -20,9 +22,25 @@ export default function AboutMe() {
       <p>
         I’m looking forward to exploring full stack roles where I can be part of
         a small team with lots of mentorship, and help build web applications
-        that people can utilize and benefit from. My main skills include
-        Javascript, React, Redux, Express, Sequelize, HTML, and CSS. I have a
-        basic knowledge in Three.js and Kaboom.js.
+        that people can utilize and benefit from.
+        <br></br>My main skills include:
+        <div className="skills">
+          <ul>
+            FrontEnd
+            <ul>Javascript</ul>
+            <ul>React</ul>
+            <ul>Redux</ul>
+            <ul>HTML</ul>
+            <ul>CSS</ul>
+          </ul>
+          <ul>
+            BackEnd
+            <ul>Express</ul>
+            <ul>Node</ul>
+            <ul>Sequelize</ul>
+            <ul>PosgresSQL</ul>
+          </ul>
+        </div>
       </p>
     </div>
   );

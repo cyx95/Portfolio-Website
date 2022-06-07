@@ -25,16 +25,27 @@
     text-decoration: none;
 }
 
+.links-to-projects {
+    display: flex;
+    justify-content: space-around;
+}
+
 a:hover {
     font-weight: 900;
 }
 
 .home {
-    padding: 0px 20px 0px 20px;
+    padding: 0 20px;
 }
 
-.aboutMe {
-    padding: 0px 20px 0px 20px;
+p {
+    padding: 0 40px;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 img {
@@ -46,6 +57,10 @@ h1 {
     text-align: center;
 }
 
+h3 {
+    padding: 0 20px
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -54,8 +69,15 @@ a {
 footer {
     display: flex;
     justify-content: space-between;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 95%;
-    padding: 20px
 }
+ 
+#icon {
+    width: 150px;
+    height: 200px;
+    float: left;
+    padding: 0 20px 
+}
+
