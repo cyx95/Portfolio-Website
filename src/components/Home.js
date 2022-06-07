@@ -3,10 +3,10 @@ import "../App.css"
 
 function Home () {
     return (
-        <div className="content">
+        <div className="home">
             <p>Hi! I'm</p>
             <h1 className="fullname">Chen Ying Xin</h1>
-            <p>A Fullstack Developer based in New York City</p>
+            <p>A Software Engineer based in New York City</p>
             {/* <img className="profile-pic" src=""></img>  */}
         </div>
     )

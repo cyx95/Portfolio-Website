@@ -3,8 +3,59 @@
 }
 
 .navbar {
+    padding: 20px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    text-decoration-color: white;
+    align-items: right;
+}
+
+.homeLink {
+    color: black;
+    text-decoration: none;
+    
+}
+
+.aboutLink {
+    color: black;
+    text-decoration: none;
+}
+
+.projectsLink {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: 900;
+}
+
+.home {
+    padding: 0px 20px 0px 20px;
+}
+
+.aboutMe {
+    padding: 0px 20px 0px 20px;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    width: 95%;
+    padding: 20px
 }
