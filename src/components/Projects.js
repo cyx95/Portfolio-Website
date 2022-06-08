@@ -5,7 +5,6 @@ import projectData from "../projects";
 export default function Projects() {
   return (
     <div>
-      <h1>Projects</h1>
       <div className="projects">
         {projectData.map((project) => (
           <div key={project.id}>

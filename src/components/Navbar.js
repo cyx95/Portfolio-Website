@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <Link className="homeLink" to="/">
-        Home
+        Chen Ying Xin
       </Link>
       <Link className="aboutLink" to="/about">
         About Me
