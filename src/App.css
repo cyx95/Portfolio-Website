@@ -1,5 +1,7 @@
 * {
-    background-color: gray;
+    background: url("https://assets.hongkiat.com/uploads/beautiful-minimalist-desktop-wallpapers/4k/preview/01.jpg?4") no-repeat fixed center;
+    background-size: cover;
+    font-size: 20px;
 }
 
 .navbar {
@@ -7,6 +9,7 @@
     display: flex;
     justify-content: space-between;
     align-items: right;
+    border-bottom: 2px solid black;
 }
 
 .homeLink {
@@ -34,12 +37,26 @@ a:hover {
     font-weight: 900;
 }
 
-.home {
-    padding: 0 20px;
+.home-info {
+    text-align: center;
+    float: right;
+} 
+
+.profile {
+    float: left;
 }
 
-p {
+#profile {
+    width: 200px;
+    height: 200px
+}  
+
+.aboutMe, h2{
     padding: 0 40px;
+}
+
+h2, h1{
+    font-size: 40px;
 }
 
 .skills {
@@ -51,10 +68,6 @@ p {
 img {
     width: 30px;
     height: 30px;
-}
-
-h1 {
-    text-align: center;
 }
 
 h3 {
@@ -72,12 +85,17 @@ footer {
     position: fixed;
     bottom: 0;
     width: 95%;
+    border-top: 2px solid black;
+    padding-top: 10px
 }
  
 #icon {
-    width: 150px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     float: left;
-    padding: 0 20px 
+    padding: 0 40px 
 }
 
+.frontend, .backend {
+    font-weight: bold;
+}

@@ -26,19 +26,12 @@ export default function AboutMe() {
         <br></br>My main skills include:
         <div className="skills">
           <ul>
-            FrontEnd
-            <ul>Javascript</ul>
-            <ul>React</ul>
-            <ul>Redux</ul>
-            <ul>HTML</ul>
-            <ul>CSS</ul>
+            <div className="frontend">FrontEnd</div>
+            <p>Javascript • React • Redux • HTML5 • CSS</p>
           </ul>
           <ul>
-            BackEnd
-            <ul>Express</ul>
-            <ul>Node</ul>
-            <ul>Sequelize</ul>
-            <ul>PosgresSQL</ul>
+            <div className="backend">BackEnd</div>
+            <p>Node.js • Express • PostgreSQL • Sequelize</p>
           </ul>
         </div>
       </p>
