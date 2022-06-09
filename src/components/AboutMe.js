@@ -23,17 +23,16 @@ export default function AboutMe() {
         I’m looking forward to exploring full stack roles where I can be part of
         a small team with lots of mentorship, and help build web applications
         that people can utilize and benefit from.
-        <br></br>
-        <p>My main skills include:</p>
-        <div className="frontend-skills">
-          <h4>FrontEnd</h4>
-          <p>Javascript • React • Redux • HTML5 • CSS</p>
-        </div>
-        <div className="backend-skills">
-          <h4>BackEnd</h4>
-          <p>Node.js • Express • PostgreSQL • Sequelize</p>
-        </div>
       </p>
+      <p>My main skills include:</p>
+      <div className="frontend-skills">
+        <h4>FrontEnd</h4>
+        <p>Javascript • React • Redux • HTML5 • CSS</p>
+      </div>
+      <div className="backend-skills">
+        <h4>BackEnd</h4>
+        <p>Node.js • Express • PostgreSQL • Sequelize</p>
+      </div>
     </div>
   );
 }

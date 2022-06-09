@@ -6,14 +6,16 @@ function Navbar() {
   return (
     <nav className="navbar">
       <Link className="homeLink" to="/">
-        Chen Ying Xin
+        CHEN YING XIN
       </Link>
-      <Link className="aboutLink" to="/about">
-        About Me
-      </Link>
-      <Link className="projectsLink" to="/projects">
-        Projects
-      </Link>
+      <div className="navLinks">
+        <Link className="projectsLink" to="/projects">
+          Projects
+        </Link>
+        <Link className="aboutLink" to="/about">
+          About
+        </Link>
+      </div>
     </nav>
   );
 }
