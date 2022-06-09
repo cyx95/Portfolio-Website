@@ -9,9 +9,12 @@ export default function Projects() {
         {projectData.map((project) => (
           <div key={project.id}>
             <img id="icon" alt="icon" src={project.picture} />
+
             <div className="description">
+              
               <div id="project-title">{project.title}</div>
               <div id="project-description">{project.description}</div>
+
               <div className="links-to-projects">
                 <a href={project.github}>
                   <img
@@ -28,6 +31,7 @@ export default function Projects() {
                   />
                 </a>
               </div>
+
             </div>
           </div>
         ))}
