@@ -13,7 +13,7 @@ const projectData = [
         description: "An e-commerce website that sells wine specific to the Napa Valley Region.",
         github: "https://github.com/Uranus-Grace-Shopper/GraceShopper",
         deployedSite: "https://uranus-wine.herokuapp.com/"
-    }
+    },
 ]
 
 export default projectData;
