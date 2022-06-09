@@ -43,22 +43,17 @@ a:hover {
     padding: 80px 20px 80px; 
 } 
 
-.aboutMe, h2{
+.aboutMe {
     padding: 0 40px;
+    font-weight: 100;
 }
 
-h2, h1{
-    font-size: 40px;
+#greeting {
+    font-size: 38px;
 }
 
-h3 {
-    padding: 20px;
-}
-
-.skills {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+#main-skills {
+    padding-top: 30px;
 }
 
 #github {
@@ -83,7 +78,6 @@ footer {
     padding: 20px;
     position: fixed;
     bottom: 0;
-
 }
  
 #icon {
@@ -109,10 +103,31 @@ footer {
 
 .frontend-skills {
     float: left;
-    padding-left: 15%;
 }
 
 .backend-skills {
     float: right;
-    padding-right: 15%;
+    padding-right: 300px;
+}
+
+#profile-pic-div {
+    float: right;
+    width: 50%;
+    padding-top: 50px;
+    text-align: center;
+    height: 500px;
+}
+
+#profile-pic {
+    height: 100%
+}
+
+.aboutMeDescription {
+    float: left;
+    width: 50%;
+}
+
+ul {
+    padding-bottom: 10px;
+    margin: 0;
 }
