@@ -7,13 +7,13 @@ export default function AboutMe() {
         <p id="greeting">
           Hello! My name is Chen Ying Xin but you can call me Ying
         </p>
-        <p>
+        <p id="description">
           I am a software engineer and a recent graduate of The GraceHopper
           Program at Fullstack Academy. Prior to becoming a software engineer, I
           worked in the hospitality industry as a waitress and food runner for
           6+ years.
         </p>
-        <p>
+        <p id="description">
           I've always had a profound interest in creating new things from
           scratch. I've always wondered how games were programed and how
           websites functionality worked. I finally saw my opportunity to pursue
