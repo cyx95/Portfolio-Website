@@ -5,6 +5,8 @@
     overflow: auto;
 }
 
+/*<<<<<<<<<<< Navbar >>>>>>>>>>>>>>*/
+
 .navbar {
     padding: 30px;
     border-bottom: .5px solid black;
@@ -33,9 +35,15 @@
     padding-right: 40px;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
 a:hover {
     font-weight: 900;
 }
+ 
+/*<<<<<<<<<<< Home >>>>>>>>>>>>>>*/
 
 .home-info {
     text-align: left;
@@ -43,43 +51,8 @@ a:hover {
     padding: 80px 20px 80px; 
 } 
 
-.aboutMe {
-    padding: 0 40px;
-    font-weight: 100;
-}
+/*<<<<<<<<<<<<<<< Project >>>>>>>>>>>>>>>>>>>>*/
 
-#greeting {
-    font-size: 32px;
-}
-
-#main-skills {
-    padding-top: 30px;
-}
-
-#github {
-    width: 100px;
-}
-
-#deployed-site {
-    padding-bottom: 22px;
-    width: 55px;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-footer {
-    display: flex;
-    justify-content: space-between;
-    width: 95%;
-    border-top: .5px solid black;
-    padding: 20px;
-    position: fixed;
-    bottom: 0;
-}
- 
 #icon {
     width: 25%;
     height: 250px;
@@ -104,6 +77,25 @@ footer {
     font-size: 15px;
 }
 
+#github {
+    width: 100px;
+}
+
+#deployed-site {
+    padding-bottom: 22px;
+    width: 55px;
+}
+
+/*<<<<<<<<<<<<<<<<<< About >>>>>>>>>>>>>>>>>>>>>>>>*/
+
+#greeting {
+    font-size: 32px;
+}
+
+#main-skills {
+    padding-top: 30px;
+}
+
 .frontend-skills {
     float: left;
 }
@@ -125,11 +117,16 @@ footer {
     height: 100%
 }
 
+.aboutMe {
+    padding: 0 40px;
+    font-weight: 100;
+}
+
 .aboutMeDescription {
     float: left;
     width: 50%;
     font-size: 15px;
-    padding-top: 15px
+    padding-top: 15px;
 }
 
 ul {
@@ -140,4 +137,17 @@ ul {
 
 #description {
     line-height: 22px;
+}
+
+
+/*<<<<<<<<<<<<< Footer >>>>>>>>>>>>>>>*/
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    border-top: .5px solid black;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
 }
