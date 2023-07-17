@@ -26,12 +26,14 @@ export default function AboutMe() {
         </p>
         <div className="frontend-skills">
           <ul>+ Javascript</ul>
-          <ul>+ React</ul>
-          <ul>+ Redux</ul>
+          <ul>+ C++</ul>
+          <ul>+ Python</ul>
           <ul>+ HTML5</ul>
           <ul>+ CSS</ul>
         </div>
         <div className="backend-skills">
+          <ul>+ React</ul>
+          <ul>+ Redux</ul>
           <ul>+ Node.js</ul>
           <ul>+ Express</ul>
           <ul>+ PostgreSQL</ul>
