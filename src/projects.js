@@ -5,7 +5,7 @@ const projectData = [
         picture: "https://twinfinite.net/wp-content/uploads/2016/02/pokemon_starters.png?resize=600%2C300",
         description: "Developed an API containing a comprehensive collection of the initial 151 Pokemon. Developed using a tech stack encompassing JavaScript, HTML, CSS, React, Node, Express and CI/CD tools.",
         github: "https://github.com/Original-Pokedex/Original-Pokedex",
-        deployedSite: "https://original-pokedex-production-e65d.up.railway.app/"
+        deployedSite: "https://originalpokedex.onrender.com/"
     },
     {
         title: "Haunted Mansion",
